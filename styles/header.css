@@ -1,0 +1,36 @@
+.search {
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  width: 360px;
+  height: 44px;
+  margin: 0 40px;
+}
+
+header a {
+  color: #101828;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 25px;
+}
+
+header .general-links {
+  margin-right: 25px;
+}
+
+header a.highlighted {
+  background-color: #7f56d9;
+  border: 3px solid rgba(36, 187, 140, 0.02);
+  border-radius: 8px;
+  color: #fff;
+  padding: 8px 15px;
+}
+
+header .general-links a:last-child {
+  margin-right: 70px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
